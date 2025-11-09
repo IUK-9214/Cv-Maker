@@ -1,22 +1,21 @@
-import { useState } from 'react'
-import Intro from './components/Intro/Intro'
-import Profile from './components/profile/Profile'
-import Skills from './components/skills/Skills'
-import Technical from './components/technical/Technical'
-import Experience from './components/Intro/experience/experience'
+import Experience from "./component/Experience/Experience"
+import Intro from "./component/Intro/Intro"
+import Profile from "./component/profile/Profile"
+import Skills from "./component/skills/Skills"
+import Technical from "./component/Technical/Technical"
 
 
 function App() {
-  
 
   return (
     <>
       <div>
-        <Intro />
-        <Profile />
-        <Skills />
-        <Technical />
-        <Experience />
+      <Intro/>
+      <Profile/>
+      <Skills/>
+      <Technical/>
+      <Experience/>
+      
       </div>
     </>
   )
