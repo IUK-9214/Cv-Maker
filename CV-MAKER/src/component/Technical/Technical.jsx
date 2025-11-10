@@ -26,7 +26,7 @@ const Technical = () => {
 
       {/* Input and Add button */}
       {show&&(
-        <div className="flex gap-2 mb-4 flex-col">
+        <div className="flex justify-between items-start gap-4 flex-col">
         <input
           value={tech}
           placeholder="Add any tech here"
@@ -38,9 +38,9 @@ const Technical = () => {
         />
         <button
           onClick={handleData}
-          className="bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700"
+         className="bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700"
         >
-          Add
+          Add Techniques
         </button>
       </div>
       )}

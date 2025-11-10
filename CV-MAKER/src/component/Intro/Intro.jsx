@@ -65,9 +65,7 @@ const Intro = () => {
           />
         </div>
 
-        <button className="mt-3 sm:mt-0 bg-gray-800 text-white px-4 py-1.5 rounded-md hover:bg-gray-700 transition-all">
-          Download PDF
-        </button>
+       
       </div>
     </header>
   );
