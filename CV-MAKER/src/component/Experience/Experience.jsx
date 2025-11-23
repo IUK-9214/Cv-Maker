@@ -24,7 +24,8 @@ const Experience = () => {
     e.preventDefault();
     if (!formdata.company || !formdata.position) return; // basic validation
 
-    setdata([...data, formdata]);
+    setdata(
+      [...data, formdata]);
     setshow(false);
     setformdata({
       company: "",

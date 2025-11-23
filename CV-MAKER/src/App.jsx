@@ -4,7 +4,6 @@ import Intro from "./component/Intro/Intro";
 import Profile from "./component/profile/Profile";
 import Experience from "./component/Experience/Experience";
 import Skills from "./component/skills/Skills";
-import Technical from "./component/Technical/Technical";
 
 function App() {
   
